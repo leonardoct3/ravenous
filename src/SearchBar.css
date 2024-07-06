@@ -1,0 +1,63 @@
+/* src/SearchBar.css */
+
+.SearchBar {
+    margin: 20px 0;
+    text-align: center;
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTM2OTgxMy1pbWFnZS1rd3Z4eHA5MS5qcGc.jpg');
+    background-size: cover; /* This makes the image cover the entire div */
+    background-position: center; /* This centers the image in the div */
+    padding: 20px; /* Add some padding to ensure content is not hidden by the image */
+    border-radius: 8px; /* Optional: add some rounded corners for better aesthetics */
+}
+
+.SearchBar-sort-options {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.SearchBar-sort-options ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.SearchBar-sort-options li {
+    margin: 0 10px;
+    cursor: pointer;
+    color: #666;
+}
+
+.SearchBar-sort-options .active {
+    color: #000;
+    font-weight: bold;
+}
+
+.SearchBar-fields {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.SearchBar-fields input {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.SearchBar-submit button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff6347;
+    color: white;
+    cursor: pointer;
+}
+
+.SearchBar-submit button:hover {
+    background-color: #ff4500;
+}

@@ -1,0 +1,44 @@
+.Business {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.business-address,
+.business-infos {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.business-address p,
+.business-rating h3,
+.business-rating p,
+.business-rating h2 {
+    margin: 5px 0;
+}
+
+.business-rating {
+    color: #f39c12;
+    text-align: right;
+}
